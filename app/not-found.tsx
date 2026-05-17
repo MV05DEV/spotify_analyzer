@@ -1,13 +1,10 @@
-import { Navigation } from "@/components/navigation"
 import { Button } from "@/components/ui/button"
 import { SearchX, Home } from "lucide-react"
 import Link from "next/link"
 
 export default function NotFound() {
   return (
-    <div className="min-h-screen bg-background">
-      <Navigation />
-
+    <div className="min-h-screen" style={{ background: "#080810" }}>
       <div className="flex items-center justify-center px-4 py-16 min-h-[calc(100vh-80px)]">
         <div className="max-w-2xl w-full text-center">
           {/* Icon */}
